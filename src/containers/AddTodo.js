@@ -38,7 +38,9 @@ class AddTodo extends Component {
           elevation: 5,
           shadowOffset: { width: 0, height: 5 },
           shadowRadius: 20,
-          shadowOpacity: 0.8
+          shadowOpacity: 0.8,
+          justifyContent: "center",
+          alignItems: "center"
         }}
       >
         <TextInput

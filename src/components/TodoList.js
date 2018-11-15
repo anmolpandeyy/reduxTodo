@@ -49,7 +49,10 @@ const TodoList = ({ todos, toggleTodo, deleteTodo }) => (
               {item.text}
             </Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => deleteTodo(item.id)}>
+          <TouchableOpacity
+            // style={{ padding: 10 }}
+            onPress={() => deleteTodo(item.id)}
+          >
             <Icon name="md-trash" size={30} />
           </TouchableOpacity>
         </View>
