@@ -7,8 +7,18 @@ import {
   TouchableOpacity
 } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
+import { connect } from "react-redux";
 
 class AddTodo extends Component {
+  state = {
+    text: ""
+  };
+
+  addTodo = text => {
+    this.props.dispatch({ type: "ADD_TODO", text });
+    this.setState({ text: "" });
+  };
+
   render() {
     return (
       <View
@@ -21,8 +31,13 @@ class AddTodo extends Component {
           marginHorizontal: 20
         }}
       >
-        <TextInput style={{ flex: 1 }} placeholder="Eg. Create A New Todo" />
-        <TouchableOpacity onPress={() => alert("clicked")}>
+        <TextInput
+          onChangeText={text => this.setState({ text })}
+          value={this.state.text}
+          style={{ flex: 1 }}
+          placeholder="Eg. Create A New Todo"
+        />
+        <TouchableOpacity onPress={() => this.addTodo(this.state.text)}>
           <View
             style={{
               height: 50,
@@ -39,7 +54,7 @@ class AddTodo extends Component {
     );
   }
 }
-export default AddTodo;
+export default connect()(AddTodo);
 
 const styles = StyleSheet.create({
   container: {
