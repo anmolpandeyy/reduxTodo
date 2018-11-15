@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import Icon from "react-native-vector-icons/Ionicons";
 import { connect } from "react-redux";
+import { addTodo } from "../actions/index";
 
 class AddTodo extends Component {
   state = {
@@ -15,7 +16,10 @@ class AddTodo extends Component {
   };
 
   addTodo = text => {
-    this.props.dispatch({ type: "ADD_TODO", text });
+    if (text.trim() === "") {
+      return null;
+    }
+    this.props.dispatch(addTodo(text));
     this.setState({ text: "" });
   };
 
