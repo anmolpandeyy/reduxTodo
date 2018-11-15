@@ -32,7 +32,13 @@ class AddTodo extends Component {
           borderWidth: 1,
           borderColor: "#f2f2e1",
           backgroundColor: "#eaeaea",
-          marginHorizontal: 20
+          marginHorizontal: 20,
+          borderRadius: 20,
+          paddingHorizontal: 20,
+          elevation: 5,
+          shadowOffset: { width: 0, height: 5 },
+          shadowRadius: 20,
+          shadowOpacity: 0.8
         }}
       >
         <TextInput
