@@ -54,6 +54,8 @@
 		686E8248A3484E3699450C48 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 906AF7CC35694F17AD733E51 /* Octicons.ttf */; };
 		80FAE656596546D49608B994 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7CDDDC04D94E94AF148FE7 /* SimpleLineIcons.ttf */; };
 		6372AE37BE2C48669E3D9EEE /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABE1ADAD22814DB6A9A04B13 /* Zocial.ttf */; };
+		3E57D5A4535844D78760093D /* Monaco-Linux.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7239FE69D479AADFEB6BA /* Monaco-Linux.ttf */; };
+		1F80E6B9B35B434EAAEC3C34 /* monaco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C75CC998044DB98EC75465 /* monaco.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -377,6 +379,8 @@
 		906AF7CC35694F17AD733E51 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8E7CDDDC04D94E94AF148FE7 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		ABE1ADAD22814DB6A9A04B13 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2EE7239FE69D479AADFEB6BA /* Monaco-Linux.ttf */ = {isa = PBXFileReference; name = "Monaco-Linux.ttf"; path = "../assets/fonts/Monaco/Monaco-Linux.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04C75CC998044DB98EC75465 /* monaco.ttf */ = {isa = PBXFileReference; name = "monaco.ttf"; path = "../assets/fonts/Monaco/monaco.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -659,6 +663,8 @@
 				906AF7CC35694F17AD733E51 /* Octicons.ttf */,
 				8E7CDDDC04D94E94AF148FE7 /* SimpleLineIcons.ttf */,
 				ABE1ADAD22814DB6A9A04B13 /* Zocial.ttf */,
+				2EE7239FE69D479AADFEB6BA /* Monaco-Linux.ttf */,
+				04C75CC998044DB98EC75465 /* monaco.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1125,6 +1131,8 @@
 				686E8248A3484E3699450C48 /* Octicons.ttf in Resources */,
 				80FAE656596546D49608B994 /* SimpleLineIcons.ttf in Resources */,
 				6372AE37BE2C48669E3D9EEE /* Zocial.ttf in Resources */,
+				3E57D5A4535844D78760093D /* Monaco-Linux.ttf in Resources */,
+				1F80E6B9B35B434EAAEC3C34 /* monaco.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
